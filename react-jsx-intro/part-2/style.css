@@ -1,0 +1,12 @@
+body{
+    font-family: sans-serif;
+}
+.tweet {
+    background-color: hwb(180 91% 7%);
+    margin: 10px;
+    padding:5px 15px;
+}
+.date{
+    color:rgb(4, 90, 62);
+    font-size: 0.9em;
+}

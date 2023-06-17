@@ -1,0 +1,8 @@
+body{
+    font-family: sans-serif;
+}
+.person{
+    background-color: aliceblue;
+    margin: 5px 10px;
+    padding: 3px 15px;
+}
