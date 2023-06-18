@@ -1,0 +1,9 @@
+.Pokedex-header{
+    color: #817e7eac;
+}
+
+.Pokedex-list{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
