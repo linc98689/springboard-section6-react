@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should change 1`] = `
+<DocumentFragment>
+  <div
+    class="Card"
+  >
+    <h4
+      class="Card-title"
+    >
+      Test Photo
+    </h4>
+    <img
+      alt="Test Photo"
+      class="Card-image"
+      src="test.com"
+    />
+    <small
+      class="Card-small"
+    >
+      Image  of 3.
+    </small>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`should not change 1`] = `
+<DocumentFragment>
+  <div
+    class="Card"
+  >
+    <h4
+      class="Card-title"
+    >
+      Test Photo
+    </h4>
+    <img
+      alt="Test Photo"
+      class="Card-image"
+      src="test.com"
+    />
+    <small
+      class="Card-small"
+    >
+      Image  of 3.
+    </small>
+  </div>
+</DocumentFragment>
+`;

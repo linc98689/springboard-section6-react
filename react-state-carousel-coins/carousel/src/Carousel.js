@@ -22,8 +22,13 @@ import Card from "./Card";
 
   //Increments currCardIdx state by 1
   function goForward() {
-    setCurrCardIdx(currCardIdx + 1);
+    setCurrCardIdx((currCardIdx + 1) % photos.length);
   }
+
+  // Decrement currCardIdx state by 1
+  function goBackward(){
+    setCurrCardIdx((currCardIdx - 1 + photos.length) % photos.length);
+  };
 
   return (
     <div className="Carousel">
@@ -31,7 +36,7 @@ import Card from "./Card";
       <div className="Carousel-main">
         <i
           className="bi bi-arrow-left-circle"
-          onClick={goForward}
+          onClick={goBackward}
         />
         <Card
           caption={currCard.caption}
