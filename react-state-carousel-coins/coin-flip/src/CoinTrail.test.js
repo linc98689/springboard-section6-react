@@ -48,20 +48,40 @@ it("btn works", ()=>{
     expect(screen.getByAltText("tail of penny")).toBeInTheDocument();
     expect(screen.getByTestId("summary")).toHaveTextContent(/3/);
 
-    // fourth click expects tail, and 3 in summary
+    // fourth click expects tail, and 4 in summary
     fireEvent.click(screen.getByRole("button"));
     expect(screen.getByAltText("head of penny")).toBeInTheDocument();
     expect(screen.getByTestId("summary")).toHaveTextContent(/4/);
 
-    // fifth click expects tail, and 3 in summary
+    // fifth click expects tail, and 5 in summary
     fireEvent.click(screen.getByRole("button"));
     expect(screen.getByAltText("head of penny")).toBeInTheDocument();
     expect(screen.getByTestId("summary")).toHaveTextContent(/5/);
 
-    // sixth click expects head, and 3 in summary
+    // sixth click expects head, and 6 in summary
     fireEvent.click(screen.getByRole("button"));
     expect(screen.getByAltText("head of penny")).toBeInTheDocument();
     expect(screen.getByTestId("summary")).toHaveTextContent(/6/);
+    
+    // sixth click expects head, and 7 in summary
+    fireEvent.click(screen.getByRole("button"));
+    expect(screen.getByAltText("tail of penny")).toBeInTheDocument();
+    expect(screen.getByTestId("summary")).toHaveTextContent(/7/);
+
+    // sixth click expects head, and 8 in summary
+    fireEvent.click(screen.getByRole("button"));
+    expect(screen.getByAltText("head of penny")).toBeInTheDocument();
+    expect(screen.getByTestId("summary")).toHaveTextContent(/8/);
+
+    // sixth click expects head, and 9 in summary
+    fireEvent.click(screen.getByRole("button"));
+    expect(screen.getByAltText("head of penny")).toBeInTheDocument();
+    expect(screen.getByTestId("summary")).toHaveTextContent(/9/);
+
+    // sixth click expects head, and 6 in summary
+    fireEvent.click(screen.getByRole("button"));
+    expect(screen.getByAltText("tail of penny")).toBeInTheDocument();
+    expect(screen.getByTestId("summary")).toHaveTextContent(/10/);
 
 
 
