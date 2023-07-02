@@ -8,6 +8,7 @@ import Game from "./Game";
  */
 
 const NROW = 6, NCOL = 6;
+const arrLightClass = ["Board-table-light-on", "Board-table-light-off"];
 let game = new Game(NROW,NCOL);
 game.initGame();
 const Board = ()=>{
@@ -15,7 +16,8 @@ const Board = ()=>{
 
     // return
     return (<div className="Board">
-        <button onClick={()=>{
+        <h1 className="Board-title">Lights Out Game</h1>
+        <button className="Board-start" onClick={()=>{
             game = null;
             game = new Game(NROW,NCOL);
             game.initGame();
@@ -27,7 +29,7 @@ const Board = ()=>{
                 {lights.map((row,ix )=>{
                     let str = row.map((e, iy) => 
                     <td key={iy}>
-                        <button onClick={()=>{
+                        <button  className={`Board-table-button ${arrLightClass[e]}`} onClick={()=>{
                             game.updateLights(ix, iy);
                             setLights((lights) => [...game.matLights]);
                             if(game.isGameOver()){
@@ -37,7 +39,7 @@ const Board = ()=>{
                                     
                                 }, 500);
                             }
-                         }}>{e}
+                         }}>
                          </button>
                     </td>)
                     return <tr key={ix}>

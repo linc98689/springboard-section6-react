@@ -21,11 +21,13 @@ class Game{
  */
     initGame(){
         console.log("in initGame");
-        let randTimes = Math.floor(Math.random() * (Math.min(this.NUM_COLS * this.NUM_ROWS, 10)));
-        console.log(`Solution: need to click time: ${randTimes} times`);
-        console.log("Click the cells in the following list backwards:");
-        for (let i=0; i<randTimes;i++)
-            this.randomClick();
+        while (this.isGameOver()){ // ensure initial config is not all lights out
+            let randTimes = Math.floor(Math.random() * (Math.min(this.NUM_COLS * this.NUM_ROWS, 20)));
+            console.log(`Solution: need to click time: ${randTimes} times`);
+            console.log("Click the cells in the following list backwards:");
+            for (let i=0; i<randTimes;i++)
+                this.randomClick();
+        }
     }
 
 /** Game is over when sum of arrLights equals NUM_ROWS * NUM_COLS

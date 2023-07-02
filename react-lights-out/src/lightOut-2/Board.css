@@ -1,0 +1,57 @@
+.Board{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background: linear-gradient(45deg, rgb(0, 38, 114), rgb(124, 1, 159));
+    width:100vw;
+    height: 100vh;
+}
+.Board-title{
+    text-align:center;
+    font-size: 2rem;
+    color:rgba(221, 218, 218, 0.877);
+}
+.Board-start{
+    display: inline-block;
+    padding: 0.5em 1em;
+    background-color: rgb(66, 45, 184);
+    color:rgb(226, 230, 230);
+    font-size: 1em;
+    font-weight: bold;
+    width:150px;
+    border-radius: 10px;
+    border:1px solid rgb(74, 73, 73);
+
+}
+.Board-start:hover{
+    background-color:rgba(66, 45, 184, 0.5) ;
+    outline: 1px solid rgb(233, 231, 231);
+    outline-offset: 1px;
+}
+.Board-table{
+    width: 60vw;
+    height: 50vh;
+}
+.Board-table-button{
+    box-sizing: border-box;
+    width:100%;
+    height:100%;
+    border: 1px solid rgb(33, 1, 88);
+    border-radius:5px;
+}
+.Board-table-button:hover{
+    outline: 1px solid rgb(164, 160, 160);
+    outline-offset: 2px;
+}
+.Board-table-light-on{
+    background-color: white;
+}
+
+.Board-table-light-off{
+    background-color: rgb(116, 113, 113);
+}
+
+
