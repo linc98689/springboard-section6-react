@@ -23,6 +23,7 @@ class Game{
         console.log("in initGame");
         while (this.isGameOver()){ // ensure initial config is not all lights out
             let randTimes = Math.floor(Math.random() * (Math.min(this.NUM_COLS * this.NUM_ROWS, 20)));
+            this.target = randTimes;
             console.log(`Solution: need to click time: ${randTimes} times`);
             console.log("Click the cells in the following list backwards:");
             for (let i=0; i<randTimes;i++)
