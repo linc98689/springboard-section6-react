@@ -1,0 +1,16 @@
+
+.Box{
+    margin:20px;
+    display:flex;
+    align-items: center;
+}
+.Box-box{
+    margin: 7px;
+    box-shadow: 2px 2px 3px rgb(56, 53, 53);
+}
+.Box-delete{
+    padding:0.3em 0.5em;
+    border: 1px solid black;
+    color:rgb(120, 50, 3);
+    display: block;
+}
