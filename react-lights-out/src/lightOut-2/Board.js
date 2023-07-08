@@ -47,11 +47,6 @@ const Board = ()=>{
                             if(game.isGameOver()){
                                 zindex_gameover = 10;
                                 setLights((lights)=>[]);
-                                // setTimeout(()=>{
-                                //     alert("Congraduation! You WON!");
-                                    
-                                // }, 500);
-
                             }
                          }}>
                          </button>
