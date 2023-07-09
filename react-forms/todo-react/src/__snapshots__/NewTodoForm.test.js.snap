@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should not change 1`] = `
+<DocumentFragment>
+  <form>
+    <input
+      class="newtask-input"
+      placeholder="new task"
+      value=""
+    />
+    <button
+      class="newtask-btn"
+      type="submit"
+    >
+      Add
+    </button>
+  </form>
+</DocumentFragment>
+`;

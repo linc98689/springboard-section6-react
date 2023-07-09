@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should not change 1`] = `
+<DocumentFragment>
+  <div
+    class="todolist"
+  >
+    <h1
+      class="todolist-title"
+    >
+      My Todo List
+    </h1>
+    <h2
+      class="todolist-subtitle"
+    >
+      Add a new task
+    </h2>
+    <form>
+      <input
+        class="newtask-input"
+        placeholder="new task"
+        value=""
+      />
+      <button
+        class="newtask-btn"
+        type="submit"
+      >
+        Add
+      </button>
+    </form>
+    <h2
+      class="todolist-subtitle"
+    >
+       Tasks on hand
+    </h2>
+    <ul
+      class="todolist-list"
+    />
+    <div
+      class="edit-form edit-form-unshown"
+    >
+      <h2
+        class="edit-form-title"
+      >
+         Editing a task
+      </h2>
+      <form>
+        <input
+          class="edit-input"
+          id="edit-task"
+          type="text"
+          value=""
+        />
+        <div
+          class="edit-buttons"
+        >
+          <button
+            type="button"
+          >
+            Cancel
+          </button>
+          <button
+            type="submit"
+          >
+            Save
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</DocumentFragment>
+`;

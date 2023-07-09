@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should not change 1`] = `
+<DocumentFragment>
+  <li
+    class="todo"
+  >
+    <span
+      class=""
+    />
+    <div
+      class="todo-buttons"
+    >
+      <button
+        class="todo-btn"
+        id="edit-undefined"
+      >
+        Edit
+      </button>
+      <button
+        class="todo-btn"
+        id="complete-undefined"
+        isdone="undefined"
+      >
+        Mark as Completed
+      </button>
+      <button
+        class="todo-btn"
+        id="remove-undefined"
+      >
+        Remove
+      </button>
+    </div>
+  </li>
+</DocumentFragment>
+`;

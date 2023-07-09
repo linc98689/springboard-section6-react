@@ -1,0 +1,21 @@
+.newtask-btn{
+    margin:1px 5px 5px 5px;
+}
+
+.newtask-input{
+    display:block;
+    width:90%;
+    padding: 3px 10px;
+    border: 1px solid rgb(3, 99, 154);
+}
+input:focus{
+    outline: 2px solid rgb(3, 99, 154);
+    outline-offset: 1px;
+    border:1px solid white;
+}
+.newform-warning{
+    margin:1px;
+    padding:0;
+    font-size:0.7em;
+    color:rgb(246, 14, 14);
+}

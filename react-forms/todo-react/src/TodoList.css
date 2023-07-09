@@ -1,0 +1,11 @@
+.todolist{
+    color:rgb(28, 21, 53);
+    background-color:rgb(230, 246, 246);
+}
+.todolist-title{
+    text-align:center;
+}
+
+.todolist-subtitle{
+    font-size: 1.2em;
+}

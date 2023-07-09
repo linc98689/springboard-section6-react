@@ -1,0 +1,10 @@
+.todo-btn{
+    margin-left:3px;
+    margin-top:3px;
+}
+.todo-done{
+    text-decoration: line-through;
+}
+.todo-buttons{
+    margin-bottom:12px;
+}

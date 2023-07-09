@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should not change 1`] = `
+<DocumentFragment>
+  <div
+    class="Box"
+  >
+    <div
+      class="Box-box"
+      style="width: 1px; height: 1px;"
+    />
+    <button
+      class="Box-delete"
+      id="0"
+    >
+      X
+    </button>
+  </div>
+</DocumentFragment>
+`;
