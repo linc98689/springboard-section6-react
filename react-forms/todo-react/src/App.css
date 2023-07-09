@@ -1,9 +1,11 @@
 .App{
   margin:20px;
+  box-sizing: border-box;
 }
 button{
   padding: 3px 8px;
-  box-shadow: 1px 1px 3=2px rgb(123, 121, 121);
+  box-shadow: 0px 1px 2px rgb(121, 206, 243);
   border-radius: 3px;
   margin:3px;
+  border: 1px solid rgb(3, 99, 154)
 }
