@@ -1,0 +1,19 @@
+.Deck{
+    display: relative;
+    margin:30px;
+}
+.Deck-btn{
+    padding:3px 5px;
+    margin-right: 10px;
+}
+.Deck-loading{
+    margin:5px;
+    font-size: 1em;
+}
+.Deck-msg{
+    color:rgb(167, 41, 6);
+    font-size: 1em;
+    padding: 5px 8px;
+    border: 1px solid rgb(182, 44, 6);
+    box-shadow: 0 0 3px rgb(108, 25, 2, 0.5);
+}

@@ -6,6 +6,7 @@ const EditForm = ({task, updateTask, updateCurrentTaskIdx, className_2}) =>{
     useEffect(()=>{
         setFormData(task);
         refInput.current.focus();
+        refTaskWarning.current.style.opacity = (task===""? 1:0);
     }, [task]);
 
     const refInput = useRef();

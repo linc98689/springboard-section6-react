@@ -1,0 +1,21 @@
+.Card{
+    /* position:fixed;
+    background-color: blue;
+    width: 50x;
+    height: 100px; 
+    top: 10%;
+    left: 0%;
+     transform: translate(0%, -50%); */
+
+}
+
+.Card-img{
+    position:absolute;
+    /* display: block; */
+    left:80px;
+    top:150px;
+    /* transform: translate(-50%, 0); */
+    /* transform: translate(-50%, -50%); */
+    width: 100px;
+    /* height: 200px; */
+}
