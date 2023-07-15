@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import uuid from "uuid";
+import {v1 as uuid} from "uuid";
 import axios from "axios";
 import PokemonSelect from "./PokemonSelect";
 import PokemonCard from "./PokemonCard";
